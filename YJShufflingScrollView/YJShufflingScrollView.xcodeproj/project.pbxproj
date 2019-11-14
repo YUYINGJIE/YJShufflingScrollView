@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F010CB4237B09CC00396A15 /* YJPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F010CB3237B09CC00396A15 /* YJPageControl.m */; };
+		3F1AC3672328C9E0009C7892 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AC3632328C9E0009C7892 /* h3.jpg */; };
+		3F1AC3682328C9E0009C7892 /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AC3642328C9E0009C7892 /* h4.jpg */; };
+		3F1AC3692328C9E0009C7892 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AC3652328C9E0009C7892 /* h1.jpg */; };
+		3F1AC36A2328C9E0009C7892 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AC3662328C9E0009C7892 /* h2.jpg */; };
+		3F1AC36C2328CA13009C7892 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AC36B2328CA13009C7892 /* placeholder@2x.png */; };
+		3F66D239237BFC6C0020F9ED /* YJShufflingFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F66D238237BFC6C0020F9ED /* YJShufflingFlowLayout.m */; };
+		3FE5E3CB2327829200534FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3CA2327829200534FF7 /* AppDelegate.m */; };
+		3FE5E3CE2327829200534FF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3CD2327829200534FF7 /* ViewController.m */; };
+		3FE5E3D12327829200534FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5E3CF2327829200534FF7 /* Main.storyboard */; };
+		3FE5E3D32327829200534FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5E3D22327829200534FF7 /* Assets.xcassets */; };
+		3FE5E3D62327829200534FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5E3D42327829200534FF7 /* LaunchScreen.storyboard */; };
+		3FE5E3D92327829200534FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3D82327829200534FF7 /* main.m */; };
+		3FE5E3E32327829200534FF7 /* YJShufflingScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3E22327829200534FF7 /* YJShufflingScrollViewTests.m */; };
+		3FE5E3EE2327829200534FF7 /* YJShufflingScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3ED2327829200534FF7 /* YJShufflingScrollViewUITests.m */; };
+		3FE5E3FE2327868C00534FF7 /* YJShufflingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E3FD2327868C00534FF7 /* YJShufflingScrollView.m */; };
+		3FE5E40E232797B800534FF7 /* YJShufflingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5E40D232797B700534FF7 /* YJShufflingCollectionViewCell.m */; };
+		40DE43571701E58AEB81CEE6 /* libPods-YJShufflingScrollViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0527E1923A679EFE7D89AB9 /* libPods-YJShufflingScrollViewUITests.a */; };
+		C136FA8B295DB97AB54734B9 /* libPods-YJShufflingScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D06D47B572DD80C02F5816 /* libPods-YJShufflingScrollViewTests.a */; };
+		C729B0ECFA6EE8EC98CA628F /* libPods-YJShufflingScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC109E8D8410813B29728FD /* libPods-YJShufflingScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE5E3DF2327829200534FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE5E3BE2327829200534FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE5E3C52327829200534FF7;
+			remoteInfo = YJShufflingScrollView;
+		};
+		3FE5E3EA2327829200534FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE5E3BE2327829200534FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE5E3C52327829200534FF7;
+			remoteInfo = YJShufflingScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCDB05929D41A238A0CCA63 /* Pods-YJShufflingScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollViewTests/Pods-YJShufflingScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F010CB2237B09CC00396A15 /* YJPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPageControl.h; sourceTree = "<group>"; };
+		3F010CB3237B09CC00396A15 /* YJPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPageControl.m; sourceTree = "<group>"; };
+		3F1AC3632328C9E0009C7892 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		3F1AC3642328C9E0009C7892 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		3F1AC3652328C9E0009C7892 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		3F1AC3662328C9E0009C7892 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		3F1AC36B2328CA13009C7892 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		3F66D237237BFC6C0020F9ED /* YJShufflingFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJShufflingFlowLayout.h; sourceTree = "<group>"; };
+		3F66D238237BFC6C0020F9ED /* YJShufflingFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJShufflingFlowLayout.m; sourceTree = "<group>"; };
+		3FE5E3C62327829200534FF7 /* YJShufflingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJShufflingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE5E3C92327829200534FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE5E3CA2327829200534FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FE5E3CC2327829200534FF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FE5E3CD2327829200534FF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FE5E3D02327829200534FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FE5E3D22327829200534FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE5E3D52327829200534FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FE5E3D72327829200534FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE5E3D82327829200534FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE5E3DE2327829200534FF7 /* YJShufflingScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJShufflingScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE5E3E22327829200534FF7 /* YJShufflingScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJShufflingScrollViewTests.m; sourceTree = "<group>"; };
+		3FE5E3E42327829200534FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE5E3E92327829200534FF7 /* YJShufflingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJShufflingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE5E3ED2327829200534FF7 /* YJShufflingScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJShufflingScrollViewUITests.m; sourceTree = "<group>"; };
+		3FE5E3EF2327829200534FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE5E3FC2327868C00534FF7 /* YJShufflingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJShufflingScrollView.h; sourceTree = "<group>"; };
+		3FE5E3FD2327868C00534FF7 /* YJShufflingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJShufflingScrollView.m; sourceTree = "<group>"; };
+		3FE5E40C232797B000534FF7 /* YJShufflingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJShufflingCollectionViewCell.h; sourceTree = "<group>"; };
+		3FE5E40D232797B700534FF7 /* YJShufflingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJShufflingCollectionViewCell.m; sourceTree = "<group>"; };
+		46D06D47B572DD80C02F5816 /* libPods-YJShufflingScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJShufflingScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BE2B35167ED6DCCB5A4945 /* Pods-YJShufflingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollView/Pods-YJShufflingScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		5EE0F4D0B1C21045FE9E9789 /* Pods-YJShufflingScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollViewUITests/Pods-YJShufflingScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC109E8D8410813B29728FD /* libPods-YJShufflingScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJShufflingScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A668594B1C56ACDCAFFB52ED /* Pods-YJShufflingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollView/Pods-YJShufflingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		C533BAE4599092B05B06DE49 /* Pods-YJShufflingScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollViewUITests/Pods-YJShufflingScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0527E1923A679EFE7D89AB9 /* libPods-YJShufflingScrollViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJShufflingScrollViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59CE4FBBBD2FE9FBFECB348 /* Pods-YJShufflingScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJShufflingScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJShufflingScrollViewTests/Pods-YJShufflingScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE5E3C32327829200534FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C729B0ECFA6EE8EC98CA628F /* libPods-YJShufflingScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3DB2327829200534FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C136FA8B295DB97AB54734B9 /* libPods-YJShufflingScrollViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3E62327829200534FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE43571701E58AEB81CEE6 /* libPods-YJShufflingScrollViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC1809C8C05D2B884D4D70A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A668594B1C56ACDCAFFB52ED /* Pods-YJShufflingScrollView.debug.xcconfig */,
+				53BE2B35167ED6DCCB5A4945 /* Pods-YJShufflingScrollView.release.xcconfig */,
+				F59CE4FBBBD2FE9FBFECB348 /* Pods-YJShufflingScrollViewTests.debug.xcconfig */,
+				1BCDB05929D41A238A0CCA63 /* Pods-YJShufflingScrollViewTests.release.xcconfig */,
+				5EE0F4D0B1C21045FE9E9789 /* Pods-YJShufflingScrollViewUITests.debug.xcconfig */,
+				C533BAE4599092B05B06DE49 /* Pods-YJShufflingScrollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FE5E3BD2327829200534FF7 = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3C82327829200534FF7 /* YJShufflingScrollView */,
+				3FE5E3E12327829200534FF7 /* YJShufflingScrollViewTests */,
+				3FE5E3EC2327829200534FF7 /* YJShufflingScrollViewUITests */,
+				3FE5E3C72327829200534FF7 /* Products */,
+				0FC1809C8C05D2B884D4D70A /* Pods */,
+				5225BB7530135DE1C8753FD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE5E3C72327829200534FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3C62327829200534FF7 /* YJShufflingScrollView.app */,
+				3FE5E3DE2327829200534FF7 /* YJShufflingScrollViewTests.xctest */,
+				3FE5E3E92327829200534FF7 /* YJShufflingScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE5E3C82327829200534FF7 /* YJShufflingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3FB2327864900534FF7 /* YJShufflingScrollView */,
+				3FE5E3C92327829200534FF7 /* AppDelegate.h */,
+				3FE5E3CA2327829200534FF7 /* AppDelegate.m */,
+				3FE5E3CC2327829200534FF7 /* ViewController.h */,
+				3FE5E3CD2327829200534FF7 /* ViewController.m */,
+				3FE5E3CF2327829200534FF7 /* Main.storyboard */,
+				3FE5E3D22327829200534FF7 /* Assets.xcassets */,
+				3FE5E3D42327829200534FF7 /* LaunchScreen.storyboard */,
+				3FE5E3D72327829200534FF7 /* Info.plist */,
+				3FE5E3D82327829200534FF7 /* main.m */,
+				3F1AC3652328C9E0009C7892 /* h1.jpg */,
+				3F1AC3662328C9E0009C7892 /* h2.jpg */,
+				3F1AC3632328C9E0009C7892 /* h3.jpg */,
+				3F1AC3642328C9E0009C7892 /* h4.jpg */,
+				3F1AC36B2328CA13009C7892 /* placeholder@2x.png */,
+			);
+			path = YJShufflingScrollView;
+			sourceTree = "<group>";
+		};
+		3FE5E3E12327829200534FF7 /* YJShufflingScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3E22327829200534FF7 /* YJShufflingScrollViewTests.m */,
+				3FE5E3E42327829200534FF7 /* Info.plist */,
+			);
+			path = YJShufflingScrollViewTests;
+			sourceTree = "<group>";
+		};
+		3FE5E3EC2327829200534FF7 /* YJShufflingScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3ED2327829200534FF7 /* YJShufflingScrollViewUITests.m */,
+				3FE5E3EF2327829200534FF7 /* Info.plist */,
+			);
+			path = YJShufflingScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		3FE5E3FB2327864900534FF7 /* YJShufflingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5E3FC2327868C00534FF7 /* YJShufflingScrollView.h */,
+				3FE5E3FD2327868C00534FF7 /* YJShufflingScrollView.m */,
+				3FE5E40C232797B000534FF7 /* YJShufflingCollectionViewCell.h */,
+				3FE5E40D232797B700534FF7 /* YJShufflingCollectionViewCell.m */,
+				3F010CB2237B09CC00396A15 /* YJPageControl.h */,
+				3F010CB3237B09CC00396A15 /* YJPageControl.m */,
+				3F66D237237BFC6C0020F9ED /* YJShufflingFlowLayout.h */,
+				3F66D238237BFC6C0020F9ED /* YJShufflingFlowLayout.m */,
+			);
+			path = YJShufflingScrollView;
+			sourceTree = "<group>";
+		};
+		5225BB7530135DE1C8753FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC109E8D8410813B29728FD /* libPods-YJShufflingScrollView.a */,
+				46D06D47B572DD80C02F5816 /* libPods-YJShufflingScrollViewTests.a */,
+				E0527E1923A679EFE7D89AB9 /* libPods-YJShufflingScrollViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE5E3C52327829200534FF7 /* YJShufflingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE5E3F22327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollView" */;
+			buildPhases = (
+				8446BFC4DF715D2C614D004E /* [CP] Check Pods Manifest.lock */,
+				3FE5E3C22327829200534FF7 /* Sources */,
+				3FE5E3C32327829200534FF7 /* Frameworks */,
+				3FE5E3C42327829200534FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJShufflingScrollView;
+			productName = YJShufflingScrollView;
+			productReference = 3FE5E3C62327829200534FF7 /* YJShufflingScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE5E3DD2327829200534FF7 /* YJShufflingScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE5E3F52327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollViewTests" */;
+			buildPhases = (
+				29D19C26E0F661B9943178DA /* [CP] Check Pods Manifest.lock */,
+				3FE5E3DA2327829200534FF7 /* Sources */,
+				3FE5E3DB2327829200534FF7 /* Frameworks */,
+				3FE5E3DC2327829200534FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE5E3E02327829200534FF7 /* PBXTargetDependency */,
+			);
+			name = YJShufflingScrollViewTests;
+			productName = YJShufflingScrollViewTests;
+			productReference = 3FE5E3DE2327829200534FF7 /* YJShufflingScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FE5E3E82327829200534FF7 /* YJShufflingScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE5E3F82327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollViewUITests" */;
+			buildPhases = (
+				8FE78467166ED9EC13E4BE17 /* [CP] Check Pods Manifest.lock */,
+				3FE5E3E52327829200534FF7 /* Sources */,
+				3FE5E3E62327829200534FF7 /* Frameworks */,
+				3FE5E3E72327829200534FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE5E3EB2327829200534FF7 /* PBXTargetDependency */,
+			);
+			name = YJShufflingScrollViewUITests;
+			productName = YJShufflingScrollViewUITests;
+			productReference = 3FE5E3E92327829200534FF7 /* YJShufflingScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE5E3BE2327829200534FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YYJ;
+				TargetAttributes = {
+					3FE5E3C52327829200534FF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FE5E3DD2327829200534FF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FE5E3C52327829200534FF7;
+					};
+					3FE5E3E82327829200534FF7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FE5E3C52327829200534FF7;
+					};
+				};
+			};
+			buildConfigurationList = 3FE5E3C12327829200534FF7 /* Build configuration list for PBXProject "YJShufflingScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE5E3BD2327829200534FF7;
+			productRefGroup = 3FE5E3C72327829200534FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE5E3C52327829200534FF7 /* YJShufflingScrollView */,
+				3FE5E3DD2327829200534FF7 /* YJShufflingScrollViewTests */,
+				3FE5E3E82327829200534FF7 /* YJShufflingScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE5E3C42327829200534FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1AC3682328C9E0009C7892 /* h4.jpg in Resources */,
+				3F1AC3672328C9E0009C7892 /* h3.jpg in Resources */,
+				3F1AC36C2328CA13009C7892 /* placeholder@2x.png in Resources */,
+				3FE5E3D62327829200534FF7 /* LaunchScreen.storyboard in Resources */,
+				3F1AC36A2328C9E0009C7892 /* h2.jpg in Resources */,
+				3FE5E3D32327829200534FF7 /* Assets.xcassets in Resources */,
+				3F1AC3692328C9E0009C7892 /* h1.jpg in Resources */,
+				3FE5E3D12327829200534FF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3DC2327829200534FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3E72327829200534FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29D19C26E0F661B9943178DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJShufflingScrollViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8446BFC4DF715D2C614D004E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJShufflingScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE78467166ED9EC13E4BE17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJShufflingScrollViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE5E3C22327829200534FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F66D239237BFC6C0020F9ED /* YJShufflingFlowLayout.m in Sources */,
+				3FE5E3CE2327829200534FF7 /* ViewController.m in Sources */,
+				3FE5E3FE2327868C00534FF7 /* YJShufflingScrollView.m in Sources */,
+				3F010CB4237B09CC00396A15 /* YJPageControl.m in Sources */,
+				3FE5E3D92327829200534FF7 /* main.m in Sources */,
+				3FE5E3CB2327829200534FF7 /* AppDelegate.m in Sources */,
+				3FE5E40E232797B800534FF7 /* YJShufflingCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3DA2327829200534FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE5E3E32327829200534FF7 /* YJShufflingScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE5E3E52327829200534FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE5E3EE2327829200534FF7 /* YJShufflingScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE5E3E02327829200534FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE5E3C52327829200534FF7 /* YJShufflingScrollView */;
+			targetProxy = 3FE5E3DF2327829200534FF7 /* PBXContainerItemProxy */;
+		};
+		3FE5E3EB2327829200534FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE5E3C52327829200534FF7 /* YJShufflingScrollView */;
+			targetProxy = 3FE5E3EA2327829200534FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FE5E3CF2327829200534FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE5E3D02327829200534FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FE5E3D42327829200534FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE5E3D52327829200534FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE5E3F02327829200534FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FE5E3F12327829200534FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE5E3F32327829200534FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A668594B1C56ACDCAFFB52ED /* Pods-YJShufflingScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YJShufflingScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3FE5E3F42327829200534FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BE2B35167ED6DCCB5A4945 /* Pods-YJShufflingScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YJShufflingScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3FE5E3F62327829200534FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59CE4FBBBD2FE9FBFECB348 /* Pods-YJShufflingScrollViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJShufflingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJShufflingScrollView.app/YJShufflingScrollView";
+			};
+			name = Debug;
+		};
+		3FE5E3F72327829200534FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCDB05929D41A238A0CCA63 /* Pods-YJShufflingScrollViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJShufflingScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJShufflingScrollView.app/YJShufflingScrollView";
+			};
+			name = Release;
+		};
+		3FE5E3F92327829200534FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE0F4D0B1C21045FE9E9789 /* Pods-YJShufflingScrollViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJShufflingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJShufflingScrollView;
+			};
+			name = Debug;
+		};
+		3FE5E3FA2327829200534FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C533BAE4599092B05B06DE49 /* Pods-YJShufflingScrollViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJShufflingScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YYJ.YJShufflingScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJShufflingScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE5E3C12327829200534FF7 /* Build configuration list for PBXProject "YJShufflingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE5E3F02327829200534FF7 /* Debug */,
+				3FE5E3F12327829200534FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE5E3F22327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE5E3F32327829200534FF7 /* Debug */,
+				3FE5E3F42327829200534FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE5E3F52327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE5E3F62327829200534FF7 /* Debug */,
+				3FE5E3F72327829200534FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE5E3F82327829200534FF7 /* Build configuration list for PBXNativeTarget "YJShufflingScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE5E3F92327829200534FF7 /* Debug */,
+				3FE5E3FA2327829200534FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE5E3BE2327829200534FF7 /* Project object */;
+}
