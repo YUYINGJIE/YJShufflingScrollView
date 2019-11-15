@@ -2,7 +2,7 @@
 //  YJShufflingFlowLayout.m
 //  YJShufflingScrollView
 //
-//  Created by 于英杰 on 2019/11/13.
+//  Created by YJ on 2019/11/13.
 //  Copyright © 2019 YYJ. All rights reserved.
 //
 

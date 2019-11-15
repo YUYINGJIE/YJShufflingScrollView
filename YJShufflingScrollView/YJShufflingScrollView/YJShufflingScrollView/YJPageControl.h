@@ -2,7 +2,7 @@
 //  YJPageControl.h
 //  YJShufflingScrollView
 //
-//  Created by 于英杰 on 2019/11/12.
+//  Created by YJ on 2019/11/12.
 //  Copyright © 2019 YYJ. All rights reserved.
 //
 
