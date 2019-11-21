@@ -56,9 +56,7 @@ CGFloat ScaleFactor = 0.20;
     visibleRect.size = self.collectionView.bounds.size;
    
     // 计算collectionView最中心点的x值 相对contentsize
-    CGFloat centerX = self.collectionView.contentOffset.x + self.collectionView.frame.size.width * 0.5;
-    
-    
+  //  CGFloat centerX = self.collectionView.contentOffset.x + self.collectionView.frame.size.width * 0.5;
 
     for (UICollectionViewLayoutAttributes *attrs in array) {
         
@@ -66,13 +64,6 @@ CGFloat ScaleFactor = 0.20;
         CGFloat normalizedDistance = fabs(distance / ActiveDistance);
         CGFloat zoom = 1 - ScaleFactor * normalizedDistance;
         attrs.transform3D = CATransform3DMakeScale(1.0, zoom, 5.5);
-
-//        // cell的中心点x 和 collectionView最中心点的x值 的间距
-//        CGFloat delta = ABS(attrs.center.x - centerX);
-//        // 根据间距值 计算 cell的缩放比例
-//        CGFloat scale = 1.1 - delta / self.collectionView.frame.size.width;
-//        // 设置缩放比例
-//        attrs.transform = CGAffineTransformMakeScale(scale, scale);
     }
     
     return array;
